@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="16347" started-at="2020-04-13T05:08:32 EET" finished-at="2020-04-13T05:08:48 EET">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="16347" started-at="2020-04-13T05:08:32 EET" finished-at="2020-04-13T05:08:48 EET">
+      <class name="tests.TestBase">
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:tests.TestBase@cb644e]" name="startDriver" is-config="true" duration-ms="5588" started-at="2020-04-13T05:08:26 EET" finished-at="2020-04-13T05:08:32 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:tests.TestBase@cb644e]" name="stopDriver" is-config="true" duration-ms="1284" started-at="2020-04-13T05:08:48 EET" finished-at="2020-04-13T05:08:49 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.TestBase -->
+      <class name="tests.UserRegisterationTest">
+        <test-method status="PASS" signature="getResponseSignUP()[pri:0, instance:tests.UserRegisterationTest@13805618]" name="getResponseSignUP" duration-ms="1372" started-at="2020-04-13T05:08:32 EET" finished-at="2020-04-13T05:08:33 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseSignUP -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.UserRegisterationTest@13805618]" name="screenshotOnFailure" is-config="true" duration-ms="1" started-at="2020-04-13T05:08:33 EET" finished-at="2020-04-13T05:08:33 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getResponseSignUP status=SUCCESS method=UserRegisterationTest.getResponseSignUP()[pri:0, instance:tests.UserRegisterationTest@13805618] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="UserCanRegisterSuccessfully()[pri:1, instance:tests.UserRegisterationTest@13805618]" name="UserCanRegisterSuccessfully" duration-ms="9151" started-at="2020-04-13T05:08:33 EET" finished-at="2020-04-13T05:08:42 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanRegisterSuccessfully -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.UserRegisterationTest@13805618]" name="screenshotOnFailure" is-config="true" duration-ms="1" started-at="2020-04-13T05:08:42 EET" finished-at="2020-04-13T05:08:42 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanRegisterSuccessfully status=SUCCESS method=UserRegisterationTest.UserCanRegisterSuccessfully()[pri:1, instance:tests.UserRegisterationTest@13805618] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="RegisteredUserCanLogout()[pri:0, instance:tests.UserRegisterationTest@13805618]" name="RegisteredUserCanLogout" duration-ms="1766" started-at="2020-04-13T05:08:42 EET" depends-on-methods="tests.UserRegisterationTest.UserCanRegisterSuccessfully" finished-at="2020-04-13T05:08:44 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteredUserCanLogout -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.UserRegisterationTest@13805618]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2020-04-13T05:08:44 EET" finished-at="2020-04-13T05:08:44 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisteredUserCanLogout status=SUCCESS method=UserRegisterationTest.RegisteredUserCanLogout()[pri:0, instance:tests.UserRegisterationTest@13805618] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="RegisteredUserCanLogin()[pri:0, instance:tests.UserRegisterationTest@13805618]" name="RegisteredUserCanLogin" duration-ms="4011" started-at="2020-04-13T05:08:44 EET" depends-on-methods="tests.UserRegisterationTest.RegisteredUserCanLogout" finished-at="2020-04-13T05:08:48 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteredUserCanLogin -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.UserRegisterationTest@13805618]" name="screenshotOnFailure" is-config="true" duration-ms="1" started-at="2020-04-13T05:08:48 EET" finished-at="2020-04-13T05:08:48 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisteredUserCanLogin status=SUCCESS method=UserRegisterationTest.RegisteredUserCanLogin()[pri:0, instance:tests.UserRegisterationTest@13805618] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+      </class> <!-- tests.UserRegisterationTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
